@@ -1,6 +1,7 @@
 package web;
 
 import enums.PlayerRole;
+import enums.PlayerRoleConverter;
 import factory.GameFactory;
 import model.Player;
 import model.Specification;
@@ -11,6 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
+@RequestMapping("/game")
 @RestController
 public class SoccerController {
     private GameFactory gameFactory = new GameFactory();
@@ -26,7 +28,7 @@ public class SoccerController {
             @RequestParam(value = "speed", defaultValue = "dafaultSpeed") int speed,
             @RequestParam(value = "role", defaultValue = "dafaultRole") String role
     ) {
-        Specification specification = new Specification(name,speed, PlayerRole.ATTACKER);
+        Specification specification = new Specification(name,speed, PlayerRoleConverter.getRole(role));
 
         gameFactory.addPlayer(new Player(specification));
         return gameFactory.getPlayer(name);
