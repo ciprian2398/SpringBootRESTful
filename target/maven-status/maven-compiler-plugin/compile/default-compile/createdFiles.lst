@@ -1,0 +1,8 @@
+web\Application.class
+web\SoccerController.class
+enums\PlayerRole.class
+enums\Skill.class
+factory\GameFactory.class
+model\Player.class
+factory\PlayerRepository.class
+model\Specification.class
