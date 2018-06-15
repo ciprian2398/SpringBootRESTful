@@ -7,8 +7,11 @@ import java.util.List;
 
 public class GameFactory {
 
+    public GameFactory(PlayerRepository playerRepository) {
+        this.playerRepository = playerRepository;
+    }
 
-    PlayerRepository playerRepository = new PlayerRepository();
+    private PlayerRepository playerRepository;
 
     public Player createPlayer() {
         return new Player(new Specification("Default Name", 25));
@@ -26,7 +29,7 @@ public class GameFactory {
         return playerRepository.getPlayers();
     }
 
-    public Player getPlayer(String name){
+    public Player getPlayer(String name) {
         return playerRepository.getPlayer(name);
     }
 }

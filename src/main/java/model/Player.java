@@ -3,6 +3,10 @@ package model;
 import enums.PlayerRole;
 import enums.Skill;
 
+import javax.xml.bind.annotation.XmlRootElement;
+
+
+@XmlRootElement
 public class Player {
     public Skill skill;
     private String name;

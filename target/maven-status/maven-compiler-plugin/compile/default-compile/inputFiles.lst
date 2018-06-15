@@ -1,8 +1,10 @@
 C:\Users\crm0100\IdeaProjects\SpringBootRESTful\src\main\java\factory\GameFactory.java
 C:\Users\crm0100\IdeaProjects\SpringBootRESTful\src\main\java\web\Application.java
 C:\Users\crm0100\IdeaProjects\SpringBootRESTful\src\main\java\enums\Skill.java
+C:\Users\crm0100\IdeaProjects\SpringBootRESTful\src\main\java\web\AppConfig.java
 C:\Users\crm0100\IdeaProjects\SpringBootRESTful\src\main\java\enums\PlayerRole.java
 C:\Users\crm0100\IdeaProjects\SpringBootRESTful\src\main\java\model\Specification.java
 C:\Users\crm0100\IdeaProjects\SpringBootRESTful\src\main\java\web\SoccerController.java
+C:\Users\crm0100\IdeaProjects\SpringBootRESTful\src\main\java\enums\PlayerRoleConverter.java
 C:\Users\crm0100\IdeaProjects\SpringBootRESTful\src\main\java\factory\PlayerRepository.java
 C:\Users\crm0100\IdeaProjects\SpringBootRESTful\src\main\java\model\Player.java

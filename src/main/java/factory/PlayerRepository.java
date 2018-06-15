@@ -2,6 +2,7 @@ package factory;
 
 import model.Player;
 import model.Specification;
+import org.springframework.context.annotation.Configuration;
 
 import java.util.ArrayList;
 import java.util.List;

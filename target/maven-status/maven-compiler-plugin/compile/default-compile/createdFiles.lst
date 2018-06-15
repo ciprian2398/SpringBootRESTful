@@ -1,6 +1,8 @@
 web\Application.class
 web\SoccerController.class
 enums\PlayerRole.class
+web\AppConfig.class
+enums\PlayerRoleConverter.class
 enums\Skill.class
 factory\GameFactory.class
 model\Player.class
